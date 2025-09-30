@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SneakVerse - Kontak</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body class="contact">
+    <!-- HEADER -->
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <img src="img/logo.png" alt="SneakVerse Logo" />
+        </div>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="menu.html">Product</a>
+          <a href="contact.html" class="active">Contact</a>
+        </nav>
+        <div class="icons">
+          <label for="toggle-search"><i class="fa fa-search"></i></label>
+          <a href="#"><i class="fa fa-heart"></i></a>
+          <a href="#"><i class="fa fa-shopping-bag"></i></a>
+        </div>
+      </div>
+
+      <!-- SEARCH DROPDOWN -->
+      <input type="checkbox" id="toggle-search" />
+      <div class="search-dropdown">
+        <div class="category">
+          <input type="checkbox" id="running" />
+          <label for="running">Running <i class="fa fa-angle-down"></i></label>
+          <div class="subcategory">
+            <a href="menu.html#running-male">Male</a>
+            <a href="menu.html#running-female">Female</a>
+          </div>
+        </div>
+        <div class="category">
+          <input type="checkbox" id="lifestyle" />
+          <label for="lifestyle"
+            >Lifestyle <i class="fa fa-angle-down"></i
+          ></label>
+          <div class="subcategory">
+            <a href="menu.html#lifestyle-male">Male</a>
+            <a href="menu.html#lifestyle-female">Female</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- CONTACT -->
+    <section class="contact">
+      <h2><span>Contact</span> Us</h2>
+      <p>
+        Ada pertanyaan, saran, atau ingin bekerja sama? Silakan hubungi kami
+        melalui form berikut.
+      </p>
+
+      <div class="row">
+        <form class="contact-form">
+          <div class="input-group">
+            <i class="fa fa-user"></i>
+            <input type="text" placeholder="Nama" required />
+          </div>
+          <div class="input-group">
+            <i class="fa fa-envelope"></i>
+            <input type="email" placeholder="Email" required />
+          </div>
+          <div class="input-group">
+            <i class="fa fa-phone"></i>
+            <input type="text" placeholder="Nomor Telepon" required />
+          </div>
+          <textarea placeholder="Silahkan isi pesan anda"></textarea>
+          <button type="submit">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      </div>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Product</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="credit">
+        <p>Created by <span>SneakVerse</span> | &copy; 2025</p>
+      </div>
+    </footer>
+  </body>
+</html>
